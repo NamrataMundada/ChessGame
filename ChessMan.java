@@ -1,13 +1,12 @@
-public class ChessMan {
-    public void move(){
+public  abstract class ChessMan {
+    public abstract void move();
 
-    }
-    public boolean isAlive() {
-        return true;
-    }
-    public String position() {
-        return " ";
-    }
+
+    public abstract boolean isAlive();
+
+
+
+    public abstract String position();
 
 
 }
